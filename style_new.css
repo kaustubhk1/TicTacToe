@@ -1,0 +1,83 @@
+/* Additional custom styles for visual enhancements */
+
+body {
+    background: linear-gradient(to bottom, #FF6B6B, #FF9A8B);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #FFF9C4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: #E4F9B9;
+    border: 2px solid #7BC043;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell.X {
+    color: #0074D9;
+}
+
+.cell.O {
+    color: #FF4136;
+}
+
+#reset {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#reset:hover {
+    background-color: #0056b3;
+}
+
+.result-screen {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.result-content {
+    background-color: #FDF6E3;
+    color: #586E75;
+}
+
+#result-message {
+    font-size: 36px;
+}
+
+#new-game {
+    background-color: #586E75;
+    color: #FDF6E3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#new-game:hover {
+    background-color: #34495E;
+}
